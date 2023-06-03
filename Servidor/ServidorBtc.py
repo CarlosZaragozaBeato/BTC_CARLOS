@@ -10,12 +10,6 @@ excel_python = ExcelPython()
 
 
 
-@app.get("/")
-def principal():
-    return "HELLO"
-
-
-
 @app.get("/update/")
 def actualizar_row(puntos:str, saldo_actual:str, saldo_anterior:str, mail:str, bono:str):
     
