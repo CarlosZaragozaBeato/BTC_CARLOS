@@ -1,0 +1,1 @@
+start firefox -P %1 freebitco.in
